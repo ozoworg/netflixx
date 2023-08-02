@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+    color: #fff;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: -1px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+ background: red;
+ color: #fff;
+ padding: 8px 20px;
+ margin-right: 15px;
+ cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    background: transparent;
+    align-items: center;
+    justify-content: space-around;
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-content{
+    margin-left: -26px;
+    margin-top: 240px;
+    text-align: center;
+    padding: 15px;
+}
+.header-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 15px;
+}
+.header-content h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 15px;
+}
+.header-content p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 15px;
+}
+.email-signup{
+    margin-top: 30px;
+}
+.email-signup input{
+    width: 360px;
+    border-radius: 0px;
+    height: 50px;
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 8px;
+}
+.email-signup button{
+    background: red;
+    width: 136px;
+    height: 56px;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+      
+}
+.feature1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 197px;
+    
+}
+.feature2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 197px;
+    
+}
+.feature3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 197px;
+    
+}
+.feature4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 197px;
+    
+}
+.faq h1{
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+    padding-left: 172px;
+    margin-top: 75px;
+}
+.accordion{
+    margin-left: 367px;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+    }
+.accordion li label{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 590px;
+    padding: 20px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px ;
+}
+input[type="radio"]{
+    display: none;
+
+}
+.accordion .content{
+    
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5,padding 0.5s;
+    width: 718px;
+}
+.accordion input[type="radio"]:checked +label+.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.para1{
+    font-size: 23px;
+    font-weight: 200;
+    text-align: center;
+    align-items: center;
+    padding-top: 49px;
+    padding-left: 120px;
+}
+.againlog{
+    display: flex;
+    align-self:center ;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 117px;
+    padding-bottom: 15px;
+    
+}
+.againlog input{
+    width: 470px;
+    height: 44px;
+    border:-2px;
+    background: #303030;
+    border-color: white;
+    border-radius: 8px;
+}
+.againlog button{
+    background-color: red;
+    text-align: center;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.finaltable{
+   
+    margin-left: 619px;
+}
+.table1{
+    margin-left: -171px;
+    margin-top: 111px;
+    text-decoration-color: #fff;
+}
+.language-btn2{
+    
+        margin-left: -353px;
+        margin-top: 34px;
+        background: transparent;
+        color: white;
+        width: 102px;
+        height: 33px;
+        cursor: pointer;
+
+}
+.netflixindia{
+    margin-left: -343px;
+    margin-top: 43px;
+    font-size: 19px;
+    color: darkgray;
+}
+.saparation{
+    width: 1570px;
+    height: 8px;
+    background-color: #303030;
+}
+.contact{
+    font-size: 15px;
+    padding-left: 444px;
+    padding-top: 30px;
+
+}
